@@ -30,7 +30,6 @@
             NSLog(@"Progress completed!");
         }
     };
-    [self.view addSubview:_colorizedProgressView];
 }
 
 #pragma mark - Events
