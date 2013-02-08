@@ -80,7 +80,7 @@ static const CGFloat CSAnimationInterval = 0.01;
     
     _totalAnimationDuration = 1.0;
     
-    _direction = CSColorizedProgressViewDirectionDownToUp;
+    _direction = CSColorizedProgressViewDirectionBottomToTop;
     
     self.startImageView = [[[UIImageView alloc] init] autorelease];
     self.endImageView = [[[UIImageView alloc] init] autorelease];
@@ -89,6 +89,7 @@ static const CGFloat CSAnimationInterval = 0.01;
     _startImageView.backgroundColor = [UIColor clearColor];
     _endImageView.backgroundColor = [UIColor clearColor];
     _clippingView.backgroundColor = [UIColor clearColor];
+    
     _clippingView.clipsToBounds = YES;
     
     [self addSubview:_endImageView];
@@ -150,24 +151,31 @@ static const CGFloat CSAnimationInterval = 0.01;
 }
 
 - (void)layoutSubviews {
-    _startImageView.frame = _endImageView.frame = CGRectMake(0.0, 0.0, _image.size.width, _image.size.height);
-    
-    CGFloat progressFactor = 1.0 - _progress;
+    _startImageView.frame = _endImageView.frame = _clippingView.frame = CGRectMake(0.0, 0.0, _image.size.width, _image.size.height);
+
+    CGFloat remainingProgress = 1.0 - _progress;
     
     switch (_direction) {
-        case CSColorizedProgressViewDirectionDownToUp: {
-            _clippingView.frame = CGRectMake(0.0, 0.0, _image.size.width, _image.size.height * progressFactor);
+        case CSColorizedProgressViewDirectionBottomToTop: {
+            CGFloat newHeight = _image.size.height * remainingProgress;
+            _clippingView.frame = CGRectMake(0.0, 0.0, _image.size.width, newHeight);
             break;
         }
-        case CSColorizedProgressViewDirectionUpToDown: {
+        case CSColorizedProgressViewDirectionTopToBottom: {
+            CGFloat newHeight = _image.size.height * _progress;
+            _startImageView.frame = CGRectMake(0.0, -newHeight, _startImageView.frame.size.width, _startImageView.frame.size.height);
+            _clippingView.frame = CGRectMake(0.0, 0.0 + newHeight, _image.size.width, _image.size.height - newHeight);
             break;
         }
         case CSColorizedProgressViewDirectionLeftToRight: {
-            _clippingView.frame = CGRectMake(0.0, 0.0, _image.size.width * progressFactor, _image.size.height);
+            CGFloat newWidth = _image.size.width * _progress;
+            _startImageView.frame = CGRectMake(-newWidth, 0.0, _startImageView.frame.size.width, _startImageView.frame.size.height);
+            _clippingView.frame = CGRectMake(0.0 + newWidth, 0.0, _image.size.width - newWidth, _image.size.height );
             break;
         }
         case CSColorizedProgressViewDirectionRightToLeft: {
-            _clippingView.frame = CGRectMake(0.0, 0.0, _image.size.width * progressFactor, _image.size.height);
+            CGFloat newWidth = _image.size.width * remainingProgress;
+            _clippingView.frame = CGRectMake(0.0, 0.0, newWidth, _image.size.height);
             break;
         }
     }

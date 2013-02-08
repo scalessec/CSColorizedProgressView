@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 
 typedef enum {
-    CSColorizedProgressViewDirectionDownToUp,
-    CSColorizedProgressViewDirectionUpToDown,
+    CSColorizedProgressViewDirectionBottomToTop,
+    CSColorizedProgressViewDirectionTopToBottom,
     CSColorizedProgressViewDirectionLeftToRight,
     CSColorizedProgressViewDirectionRightToLeft
 } CSColorizedProgressViewDirection;
@@ -27,7 +27,7 @@ typedef void (^CSColorizedCompletionBlock)(CGFloat);
 // From 0.0 to 1.0
 @property (assign, nonatomic) CGFloat progress;
 
-// Default is down to up
+// Default is bottom to top
 @property (assign, nonatomic) CSColorizedProgressViewDirection direction;
 
 // The length of the progress bar animation, in seconds, to go 0% to 100% uninterrupted.
