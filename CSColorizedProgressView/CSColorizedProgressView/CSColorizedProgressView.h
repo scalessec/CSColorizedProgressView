@@ -28,7 +28,7 @@ typedef void (^CSColorizedCompletionBlock)(CGFloat);
 // Default is bottom to top
 @property (assign, nonatomic) CSColorizedProgressViewDirection direction;
 
-// The length of the progress bar animation, in seconds, to go 0% to 100% uninterrupted.
+// The duration of the progress bar animation, in seconds, to go from 0% to 100% uninterrupted.
 // The update animation speed is based on this value. Default is 1 second.
 @property (assign, nonatomic) CGFloat totalAnimationDuration;
 
