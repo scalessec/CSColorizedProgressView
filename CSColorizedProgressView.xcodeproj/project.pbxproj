@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1565D11C16C49361008C66D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565D11B16C49361008C66D3 /* UIKit.framework */; };
+		1565D11E16C49361008C66D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565D11D16C49361008C66D3 /* Foundation.framework */; };
+		1565D12016C49361008C66D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1565D11F16C49361008C66D3 /* CoreGraphics.framework */; };
+		1565D12816C49361008C66D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565D12716C49361008C66D3 /* main.m */; };
+		1565D13216C49361008C66D3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1565D13116C49361008C66D3 /* Default-568h@2x.png */; };
+		1565D14316C49475008C66D3 /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565D14016C49475008C66D3 /* CSAppDelegate.m */; };
+		1565D14416C49475008C66D3 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565D14216C49475008C66D3 /* CSViewController.m */; };
+		1565D14616C494D0008C66D3 /* CSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1565D14516C494D0008C66D3 /* CSViewController.xib */; };
+		1565D14916C49560008C66D3 /* CSColorizedProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1565D14816C49560008C66D3 /* CSColorizedProgressView.m */; };
+		1565D14F16C49FC3008C66D3 /* paris.png in Resources */ = {isa = PBXBuildFile; fileRef = 1565D14D16C49FC3008C66D3 /* paris.png */; };
+		1565D15016C49FC3008C66D3 /* paris@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1565D14E16C49FC3008C66D3 /* paris@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1565D11816C49361008C66D3 /* CSColorizedProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSColorizedProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1565D11B16C49361008C66D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1565D11D16C49361008C66D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1565D11F16C49361008C66D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1565D12316C49361008C66D3 /* CSColorizedProgressView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSColorizedProgressView-Info.plist"; sourceTree = "<group>"; };
+		1565D12716C49361008C66D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1565D12916C49361008C66D3 /* CSColorizedProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSColorizedProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		1565D13116C49361008C66D3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1565D13F16C49475008C66D3 /* CSAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSAppDelegate.h; path = Example/CSAppDelegate.h; sourceTree = "<group>"; };
+		1565D14016C49475008C66D3 /* CSAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSAppDelegate.m; path = Example/CSAppDelegate.m; sourceTree = "<group>"; };
+		1565D14116C49475008C66D3 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSViewController.h; path = Example/CSViewController.h; sourceTree = "<group>"; };
+		1565D14216C49475008C66D3 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSViewController.m; path = Example/CSViewController.m; sourceTree = "<group>"; };
+		1565D14516C494D0008C66D3 /* CSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CSViewController.xib; path = Example/CSViewController.xib; sourceTree = "<group>"; };
+		1565D14716C49560008C66D3 /* CSColorizedProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CSColorizedProgressView.h; path = CSColorizedProgressView/CSColorizedProgressView/CSColorizedProgressView.h; sourceTree = "<group>"; };
+		1565D14816C49560008C66D3 /* CSColorizedProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CSColorizedProgressView.m; path = CSColorizedProgressView/CSColorizedProgressView/CSColorizedProgressView.m; sourceTree = "<group>"; };
+		1565D14D16C49FC3008C66D3 /* paris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = paris.png; path = Example/paris.png; sourceTree = "<group>"; };
+		1565D14E16C49FC3008C66D3 /* paris@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "paris@2x.png"; path = "Example/paris@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1565D11516C49361008C66D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1565D11C16C49361008C66D3 /* UIKit.framework in Frameworks */,
+				1565D11E16C49361008C66D3 /* Foundation.framework in Frameworks */,
+				1565D12016C49361008C66D3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1565D10F16C49361008C66D3 = {
+			isa = PBXGroup;
+			children = (
+				1565D13E16C4945B008C66D3 /* CSColorizedProgressView */,
+				1565D12116C49361008C66D3 /* Example */,
+				1565D11A16C49361008C66D3 /* Frameworks */,
+				1565D11916C49361008C66D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1565D11916C49361008C66D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1565D11816C49361008C66D3 /* CSColorizedProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1565D11A16C49361008C66D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1565D11B16C49361008C66D3 /* UIKit.framework */,
+				1565D11D16C49361008C66D3 /* Foundation.framework */,
+				1565D11F16C49361008C66D3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1565D12116C49361008C66D3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1565D13F16C49475008C66D3 /* CSAppDelegate.h */,
+				1565D14016C49475008C66D3 /* CSAppDelegate.m */,
+				1565D14116C49475008C66D3 /* CSViewController.h */,
+				1565D14216C49475008C66D3 /* CSViewController.m */,
+				1565D14516C494D0008C66D3 /* CSViewController.xib */,
+				1565D14A16C499A1008C66D3 /* Resources */,
+				1565D12216C49361008C66D3 /* Supporting Files */,
+			);
+			name = Example;
+			path = CSColorizedProgressView;
+			sourceTree = "<group>";
+		};
+		1565D12216C49361008C66D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1565D12716C49361008C66D3 /* main.m */,
+				1565D12316C49361008C66D3 /* CSColorizedProgressView-Info.plist */,
+				1565D12916C49361008C66D3 /* CSColorizedProgressView-Prefix.pch */,
+				1565D13116C49361008C66D3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1565D13E16C4945B008C66D3 /* CSColorizedProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				1565D14716C49560008C66D3 /* CSColorizedProgressView.h */,
+				1565D14816C49560008C66D3 /* CSColorizedProgressView.m */,
+			);
+			name = CSColorizedProgressView;
+			sourceTree = "<group>";
+		};
+		1565D14A16C499A1008C66D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1565D14D16C49FC3008C66D3 /* paris.png */,
+				1565D14E16C49FC3008C66D3 /* paris@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1565D11716C49361008C66D3 /* CSColorizedProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1565D13B16C49361008C66D3 /* Build configuration list for PBXNativeTarget "CSColorizedProgressView" */;
+			buildPhases = (
+				1565D11416C49361008C66D3 /* Sources */,
+				1565D11516C49361008C66D3 /* Frameworks */,
+				1565D11616C49361008C66D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSColorizedProgressView;
+			productName = CSColorizedProgressView;
+			productReference = 1565D11816C49361008C66D3 /* CSColorizedProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1565D11016C49361008C66D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Charles Scalesse";
+			};
+			buildConfigurationList = 1565D11316C49361008C66D3 /* Build configuration list for PBXProject "CSColorizedProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1565D10F16C49361008C66D3;
+			productRefGroup = 1565D11916C49361008C66D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1565D11716C49361008C66D3 /* CSColorizedProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1565D11616C49361008C66D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1565D13216C49361008C66D3 /* Default-568h@2x.png in Resources */,
+				1565D14616C494D0008C66D3 /* CSViewController.xib in Resources */,
+				1565D14F16C49FC3008C66D3 /* paris.png in Resources */,
+				1565D15016C49FC3008C66D3 /* paris@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1565D11416C49361008C66D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1565D12816C49361008C66D3 /* main.m in Sources */,
+				1565D14316C49475008C66D3 /* CSAppDelegate.m in Sources */,
+				1565D14416C49475008C66D3 /* CSViewController.m in Sources */,
+				1565D14916C49560008C66D3 /* CSColorizedProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1565D13916C49361008C66D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1565D13A16C49361008C66D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1565D13C16C49361008C66D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSColorizedProgressView/CSColorizedProgressView-Prefix.pch";
+				INFOPLIST_FILE = "CSColorizedProgressView/CSColorizedProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1565D13D16C49361008C66D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSColorizedProgressView/CSColorizedProgressView-Prefix.pch";
+				INFOPLIST_FILE = "CSColorizedProgressView/CSColorizedProgressView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1565D11316C49361008C66D3 /* Build configuration list for PBXProject "CSColorizedProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1565D13916C49361008C66D3 /* Debug */,
+				1565D13A16C49361008C66D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1565D13B16C49361008C66D3 /* Build configuration list for PBXNativeTarget "CSColorizedProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1565D13C16C49361008C66D3 /* Debug */,
+				1565D13D16C49361008C66D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1565D11016C49361008C66D3 /* Project object */;
+}
