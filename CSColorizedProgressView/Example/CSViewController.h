@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class CSColorizedProgressView;
+
 @interface CSViewController : UIViewController
+
+@property (nonatomic, retain) IBOutlet CSColorizedProgressView *colorizedProgressView;
 
 @end
