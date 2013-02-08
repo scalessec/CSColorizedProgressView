@@ -13,7 +13,7 @@ Basic Usage
     
     [colorizedProgressView setProgress:0.75 animated:YES];
 
-CSColorizedProgressView also supports a completion block for animations. This is especially useful for when the progress reaches 100%, but your application UI shouldn't respond until the progress meter visually reaches 100%.
+CSColorizedProgressView also supports a completion block for animations. This is especially useful for when the progress reaches 1.0, but your application UI shouldn't respond until the progress meter visually reaches completion.
 
     colorizedProgressView.completionBlock = ^(CGFloat completedProgress) {
         if (completedProgress == 1.0) {
