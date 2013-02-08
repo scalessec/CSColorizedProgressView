@@ -19,8 +19,6 @@ typedef void (^CSColorizedCompletionBlock)(CGFloat);
 
 @interface CSColorizedProgressView : UIView
 
-- (id)initWithImage:(UIImage *)image;
-
 // The full-color image
 @property (strong, nonatomic) UIImage *image;
 
@@ -38,6 +36,9 @@ typedef void (^CSColorizedCompletionBlock)(CGFloat);
 // when the actual progress catches up. This block will be invoked when the progress bar
 // has completed animating. It returns the current progress.
 @property (nonatomic, copy) CSColorizedCompletionBlock completionBlock;
+
+// Initialize with an image and set the bounds to the image's size
+- (id)initWithImage:(UIImage *)image;
 
 // Set the progress with an animation
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
