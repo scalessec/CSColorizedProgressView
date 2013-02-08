@@ -2,7 +2,7 @@ CSColorizedProgressView
 =============
 *Version 1.0*
 
-CSColorizedProgressView is a type of progress view that transitions a grayscale image to a full color image. It looks like this:
+`CSColorizedProgressView` is a type of progress view that transitions a grayscale image to a full color image. It looks like this:
 ![CSColorizedProgressView Screenshots](http://i.imgur.com/eca5SM7.png)
 
 Basic Usage
@@ -13,7 +13,7 @@ Basic Usage
     
     [colorizedProgressView setProgress:0.75 animated:YES];
 
-CSColorizedProgressView also supports a completion block for animations. This is especially useful for when the progress reaches 1.0, but your application UI shouldn't respond until the progress meter visually reaches completion.
+`CSColorizedProgressView` also supports a completion block for animations. This is especially useful for when the progress reaches 1.0, but your application UI shouldn't respond until the progress meter visually reaches completion.
 
     colorizedProgressView.completionBlock = ^(CGFloat completedProgress) {
         if (completedProgress == 1.0) {
