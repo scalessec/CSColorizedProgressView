@@ -2,7 +2,7 @@ CSColorizedProgressView
 =============
 *Version 1.0*
 
-`CSColorizedProgressView` is a type of progress view that transitions a grayscale image to a full color image. It looks like this:
+`CSColorizedProgressView` is a progress view that transitions a grayscale image to a full color image. It looks like this:
 ![CSColorizedProgressView Screenshots](http://i.imgur.com/eca5SM7.png)
 
 Basic Usage
