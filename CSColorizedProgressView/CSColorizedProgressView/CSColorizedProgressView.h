@@ -41,17 +41,17 @@ typedef void (^CSColorizedCompletionBlock)(CGFloat);
 @interface CSColorizedProgressView : UIView
 
 // The full-color image
-@property (strong, nonatomic) UIImage *image;
+@property (nonatomic, retain) UIImage *image;
 
 // From 0.0 to 1.0
-@property (assign, nonatomic) CGFloat progress;
+@property (nonatomic, assign) CGFloat progress;
 
 // Default is bottom to top
-@property (assign, nonatomic) CSColorizedProgressViewDirection direction;
+@property (nonatomic, assign) CSColorizedProgressViewDirection direction;
 
 // The duration of the progress bar animation, in seconds, to go from 0% to 100% uninterrupted.
 // The update animation speed is based on this value. Default is 1 second.
-@property (assign, nonatomic) CGFloat totalAnimationDuration;
+@property (nonatomic, assign) CGFloat totalAnimationDuration;
 
 // When animating, there is a delay between when the target progress is set and
 // when the actual progress catches up. This block will be invoked when the progress bar
